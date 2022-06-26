@@ -1,5 +1,5 @@
 import { getData } from "../../../../src/component/challenge/api/getChallengeData.js";
-export default function ChallengeList($target) {
+export default function ChallengeListPage({ root }) {
   const element = document.createElement("div");
   $target?.appendChild(element);
   let state = [];
@@ -33,4 +33,11 @@ export default function ChallengeList($target) {
     
   `;
   };
+  const init = () => {
+    const el = document.createElement("div");
+    el.innerHTML = `<p>첼린지 리스트 페이지다잇</p>`;
+    root.appendChild(el);
+  };
+
+  init();
 }
