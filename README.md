@@ -5,7 +5,7 @@
  <h3>Figma</h3> https://www.figma.com/file/iSguxRun7RG4rKjtBw5RyX/%EB%9A%9C%EB%91%90%ED%88%AC%EB%91%90?node-id=53%3A2</h4>
 <br/>
 <h3>
-기술 스택
+사용 기술
 </h3>
 
 - Api: RESTful(FAST API) <br/>
