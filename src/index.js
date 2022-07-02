@@ -4,6 +4,7 @@ import ChallengeListPage from "./pages/challenge/list/index.js";
 import MainPage from "./pages/main/index.js";
 import MyPage from "./pages/mypage/index.js";
 import ChallengeDetailPage from "./pages/challenge/challengeId/index.js";
+import "./styles/global.style.css";
 
 const root = document.querySelector(".App");
 const BASE_URL = "http://localhost:3000/";
