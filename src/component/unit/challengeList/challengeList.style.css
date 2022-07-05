@@ -1,0 +1,17 @@
+.challengeList {
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main .contents {
+  width: 375px;
+}
+.main ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.main ul li {
+  width: calc(172% * 100 / 375);
+}

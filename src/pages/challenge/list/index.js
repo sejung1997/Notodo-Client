@@ -1,15 +1,17 @@
 import { getData } from "../../../../src/component/challenge/api/getChallengeData.js";
+import "../../../component/unit/challengeList/challengeList.style.css";
 export default function ChallengeListPage({ root }) {
   const element = document.createElement("div");
-  $target?.appendChild(element);
+  root?.appendChild(element);
   let state = [];
   (async function getList() {
-    state = await getData(0);
+    state = await getData();
     render();
   })();
 
   const render = () => {
-    element.innerHTML = `
+    element.innerHTML = `<div class="main">
+    <div>
     <h1>내 첼린지</h1>
     <ul>
     ${state.map(
@@ -30,6 +32,9 @@ export default function ChallengeListPage({ root }) {
   `
     )}
     </ul>
+    </div>
+    </div>
+
     
   `;
   };
