@@ -31,7 +31,7 @@ export const routes = [
   {
     path: "/challenge/:id/room",
     view: () => {
-      // CourseDetail({ root });
+      CourseDetail({ root });
     },
   },
   {
